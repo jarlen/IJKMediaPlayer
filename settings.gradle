@@ -1,1 +1,1 @@
-include ':app', ':ijkPlayer'
+include ':app',':sample', ':ijkPlayer'

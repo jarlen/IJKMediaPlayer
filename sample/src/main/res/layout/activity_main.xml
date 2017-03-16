@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/center_point"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/input_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/center_point"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="输入路径: "
+        android:textColor="#0000FF"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/et_input_path"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@+id/input_tips"
+        android:layout_centerHorizontal="true"
+        android:hint="输入文件路径、网络路径" />
+
+
+    <Button
+        android:id="@+id/testBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="test" />
+
+</RelativeLayout>
