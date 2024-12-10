@@ -1,7 +1,7 @@
 # IJKMediaPlayer
 基于IJKPlayer的IJKMediaPlayer
 
-###**ijkPlayer**编译环境配置
+### **ijkPlayer**编译环境配置
 
 1、编译环境
 
