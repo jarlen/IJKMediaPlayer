@@ -5,7 +5,7 @@
 
 1、编译环境
 
-- **编译系统 : ** ubuntu 14.04
+- **编译系统:** ubuntu 14.04
 - **编译工具**
 		1、JDK(我使用的是open-jdk7)
 		2、android-NDK
